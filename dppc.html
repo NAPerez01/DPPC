@@ -3,33 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Company Page</title>
+<title>Dynamic Precision Philippines</title>
 
-<link rel="stylesheet" href="company.css">
+<link rel="stylesheet" href="dppc.css">
 
-<!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
+
 <body>
 
 <header>
+
+<div class="header-container">
+<a href="#home">
 <img src="logo-dp.png" alt="Company Logo" class="logo">
-</header>
+</a>
+</div>
 
-<div class="main-container">
-
-<!-- Navigation -->
 <div class="section-nav">
 <button onclick="scrollToSection('about')">About</button>
 <button onclick="scrollToSection('services')">Services</button>
-<button onclick="scrollToSection('mission')">Mission</button>
-<button onclick="scrollToSection('vision')">Vision</button>
+<button onclick="scrollToSection('mission')">Mission & Values</button>
 <button onclick="scrollToSection('contact')">Contact</button>
 </div>
 
-<!-- Carousel -->
-<section class="hero">
+</header>
+
+
+<div class="main-container">
+
+<!-- HERO -->
+<section class="section" id="home">
+
+<div class="content-box">
 
 <div id="carouselExampleIndicators" class="carousel slide company-carousel">
 
@@ -42,21 +48,21 @@
 
 <div class="carousel-inner">
 
-        <div class="carousel-item active">
-        <img src="front-dynamic.jpg" class="d-block w-100">
-        </div>
+<div class="carousel-item active">
+<img src="front-dynamic.jpg" class="d-block w-100">
+</div>
 
-        <div class="carousel-item">
-        <img src="prod.jpg" class="d-block w-100">
-        </div>
+<div class="carousel-item">
+<img src="prod.jpg" class="d-block w-100">
+</div>
 
-        <div class="carousel-item">
-        <img src="prod2.jpg" class="d-block w-100">
-        </div>
+<div class="carousel-item">
+<img src="prod2.jpg" class="d-block w-100">
+</div>
 
-        <div class="carousel-item">
-        <img src="dppc-front.jpg" class="d-block w-100">
-        </div>
+<div class="carousel-item">
+<img src="dppc-front.jpg" class="d-block w-100">
+</div>
 
 </div>
 
@@ -70,42 +76,157 @@
 
 </div>
 
+</div>
+
 </section>
 
-<!-- Sections -->
 
+
+<!-- ABOUT -->
 <section id="about" class="section">
-<h2>About</h2>
-<p>Dynamic Precision Philippines Corp is part of the Dynamic Precision Group founded in Norway.</p>
+
+<div class="content-box">
+
+<h2>About Dynamic Precision</h2>
+
+<div class="about-grid">
+
+<div class="about-card">
+<div class="about-icon">🏢</div>
+<h3>Who We Are</h3>
+<p>Dynamic Precision Philippines Corporation is an electronics manufacturing company providing high-quality PCB assembly and engineering solutions.</p>
+</div>
+
+<div class="about-card">
+<div class="about-icon">🌍</div>
+<h3>Our Background</h3>
+<p>The company is part of the Dynamic Precision Group founded in Norway and operates in the Philippines to support global manufacturing.</p>
+</div>
+
+<div class="about-card">
+<div class="about-icon">⚙️</div>
+<h3>What We Do</h3>
+<p>We specialize in SMT assembly, electronics manufacturing, and strict quality control for international partners.</p>
+</div>
+
+<div class="about-card">
+<div class="about-icon">⭐</div>
+<h3>Our Commitment</h3>
+<p>We are committed to precision, reliability, and continuous improvement in every product we manufacture.</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
+
+
+<!-- SERVICES -->
 <section id="services" class="section">
+
+<div class="content-box">
+
 <h2>Services</h2>
-<p>Electronics Manufacturing, SMT Assembly, Quality Control.</p>
+
+<div class="services-grid">
+
+<div class="services-item">
+<div class="service-icon">⚡</div>
+<h5>Electronics Manufacturing</h5>
+<div class="service-info">
+Precision electronic manufacturing solutions from design to full production.
+</div>
+</div>
+
+<div class="services-item">
+<div class="service-icon">🔧</div>
+<h5>SMT Assembly</h5>
+<div class="service-info">
+Professional SMT assembly with precise component placement.
+</div>
+</div>
+
+<div class="services-item">
+<div class="service-icon">✅</div>
+<h5>Quality Control</h5>
+<div class="service-info">
+Comprehensive inspection and validation systems to ensure product reliability.
+</div>
+</div>
+</div>
+
 </section>
 
+
+
+<!-- MISSION + VALUES -->
 <section id="mission" class="section">
+
+<div class="content-box">
+
+<div class="mission-values">
+
+<div class="mission-box">
+
 <h2>Mission</h2>
-<p>Your mission text here.</p>
+
+<p>
+To build a first-class internationally renowned enterprise specializing in semiconductor and electronics manufacturing while delivering exceptional products and services.
+</p>
+
+</div>
+
+<div class="values-box">
+
+<h2>Values</h2>
+
+<p>
+Integrity, innovation, excellence, and responsibility guide our commitment to deliver high-quality solutions and support both society and our people.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="vision" class="section">
-<h2>Vision</h2>
-<p>Your vision text here.</p>
-</section>
 
+
+<!-- CONTACT -->
 <section id="contact" class="section">
-<h2>Contact</h2>
-<p>Angeles City, Pampanga</p>
+
+<div class="content-box">
+
+<h2>Contact 🕿 ✉</h2>
+
+<p><i><h4><b>dppc.info2025@gmail.com</p></b></h4></i>
+
+<div class="map-container">
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.082821677869!2d120.6134257639648!3d15.16660100174776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396ed0049444631%3A0xc3bebcdc1a79eadc!2sDPPC%20(%20Dynamic%20Precision%20Philippines%20Corp.)!5e0!3m2!1sen!2sph!4v1773382974191!5m2!1sen!2sph"
+width="100%"
+height="450"
+style="border:0;"
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
 </section>
 
 </div>
 
+
 <script>
 function scrollToSection(id){
-document.getElementById(id).scrollIntoView({
-behavior:'smooth'
-});
+document.getElementById(id).scrollIntoView({behavior:'smooth'});
 }
 </script>
 
