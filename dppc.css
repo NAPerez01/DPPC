@@ -1,0 +1,105 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f4f4;
+}
+
+/* Smooth scrolling */
+html{
+scroll-behavior:smooth;
+}
+
+/* HEADER */
+
+header{
+background:#1f2937;
+padding:20px;
+text-align:center;
+}
+
+.logo{
+height:50px;
+}
+
+/* PAGE CONTAINER */
+
+.main-container{
+max-width:900px;
+margin:auto;
+padding:30px 20px;
+}
+
+/* NAVIGATION (STICKY) */
+
+.section-nav{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+
+position:sticky;
+top:0;
+z-index:1000;
+
+background:#f4f4f4;
+padding:15px 0;
+margin-bottom:40px;
+}
+
+.section-nav button{
+padding:10px 20px;
+border:none;
+border-radius:6px;
+background:#1f2937;
+color:white;
+cursor:pointer;
+font-size:14px;
+transition:0.2s;
+}
+
+.section-nav button:hover{
+background:#111827;
+transform:scale(1.05);
+}
+
+/* HERO AREA */
+
+.hero{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:40px;
+width:80%;
+}
+
+/* CAROUSEL */
+
+.company-carousel{
+width:80%;
+max-width:750px;
+margin:auto;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+.company-carousel .carousel-inner img{
+width: 100%;
+height:320px;
+object-fit:cover;
+}
+
+/* SECTIONS */
+
+.section{
+background:white;
+padding:50px 40px;
+margin-bottom:30px;
+border-radius:8px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.section h2{
+margin-bottom:15px;
+}
